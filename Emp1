@@ -1,0 +1,19 @@
+public class Employee{
+    string name;
+    int id;
+    double salary;
+    public Employee(string name,int id,double salary){
+    this.name = name;
+    this.id = id;
+    this.salary = salary;
+    }
+    public void display(){
+        System.out.println("Employee ID:"+id);
+        System.out.println("Employee NAME:"+name);
+        System.out.println("Salary: "+salary);
+    }
+    public static void main(String[] args){
+        Employee emp1 = new Employee("XYZ", 101, 50000.0);
+        emp1.displayInfo();
+    }
+}
