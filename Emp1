@@ -3,7 +3,7 @@ public class Employee{
     int id;
     double salary;
     string city;
-    public Employee(string name,int id,double salary){
+    public Employee(string name,int id,double salary,string city){
     this.name = name;
     this.id = id;
     this.salary = salary;
